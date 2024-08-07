@@ -21,7 +21,7 @@
 <br>
 
 <p align="center">
-  <img alt="Projeto HomePage" src="(./design/desktop-preview.jpg)" width="100%">
+  <img alt="Projeto HomePage" src="./github/desktop-preview.jpg)" width="100%">
 </p>
 
 ### Desafio
