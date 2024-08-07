@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+nav {
+  width: 100vw;
+  height: 100px;
+  display: flex;
+  border: 1px solid red;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  margin: 10px 0 0 10% ;
+  border: 1px solid red;
+  display: flex;
+}
+
+.lista {
+  margin: 10px  10% 0 0  ;
+  display: flex;
+  border: 1px solid red;
+  gap: 16px;
+  list-style: none;
+}
+
+.lista li a {
+  display: flex;
+  border: 1px solid black;
+  text-decoration: none;
+  color: hsl(236, 13%, 42%);
+}
+
+
+
+.mainImagem {
+  width: 100%;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+}
+
+.fistblock {
+  position: relative;
+  border: 1px solid rgb(250, 0, 0);
+  width: 800px;
+  margin: 20px 20px 0 10px ;
+}
+
+.fistblock h1 {
+  font-size: 50px;
+  font-weight: 700;
+  color: hsl(240, 100%, 5%);
+  width: 300px;
+  border: 1px solid red;
+  display: inline-block;
+  /* margin: 18px 0 0 12px; */
+}
+
+.fistblock p {
+  line-height: 1.5;
+  position: absolute;
+  display: inline;
+  font-size: 17px;
+  margin: 20px;
+  border: 1px solid red;
+  color: hsl(236, 13%, 42%);
+}
+
+.fistblock button {
+  font-weight: 800;
+  background-color: hsl(5, 85%, 63%);
+  margin: 20px;
+  padding: 15px 50px;
+  letter-spacing: 5px;
+}
+
+.secondblock {
+  border: 1px solid rgb(123, 0, 255);
+  width: 400px;
+  background-color: hsl(240, 100%, 5%);
+  margin: 20px 10px 0 20px ;
+}
+
+.secondblock h1 {
+  border: 1px solid red;
+  color: hsl(35, 77%, 62%);
+  margin: 30px 10px;
+  font-size: 40px;
+
+}
+.lista2 {
+  list-style: none;
+  margin: 10px;
+  line-height:  1.5;
+}
+
+.lista2 li{
+  margin: 20px 0 ;
+}
+
+.lista2 li a {
+  border: 1px solid red;
+  font-size: 23px;
+  color: hsl(36, 100%, 99%);
+  font-weight: 800;
+  text-decoration: none;
+}
+
+
+
+.lista2 p {
+  font-weight: 700;
+  font-size: 15px;
+  color: hsl(236, 13%, 42%);
+}
+
+.lista2 hr {
+  border: none;
+  height: 1px;
+  background-color: hsl(236, 13%, 42%);
+}
+
+
+.thirdblock {
+  border: 1px solid rgb(255, 0, 0);
+ 
+}
+
+.lista3{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ list-style: none;
+}
+
+.lista3 li a {
+  text-decoration: none;
+
+}
