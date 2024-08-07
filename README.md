@@ -1,4 +1,3 @@
-# Frontend Mentor - News homepage
 <h1 align="center"> HomePage </h1>
 
 <p align="center">
