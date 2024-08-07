@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
- <a href="#-desafio">Desafios</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+ <a href="#-desafios">Desafios</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -24,7 +24,7 @@
   <img alt="Projeto HomePage" src=".github/desktop-design.jpg" width="100%">
 </p>
 
-### Desafio
+## 🏆 Desafios
 
 "Os usuários devem ser capazes de:
 
