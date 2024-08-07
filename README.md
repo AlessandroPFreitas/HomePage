@@ -2,7 +2,7 @@
 <h1 align="center"> HomePage </h1>
 
 <p align="center">
-"Esta é uma solução para o [desafio da página inicial de notícias no Frontend Mentor](https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl).
+"Esta é uma solução para o desafio da página inicial de notícias no Frontend Mentor"(https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl).
  <br/>
 </p>
 
@@ -21,7 +21,7 @@
 <br>
 
 <p align="center">
-  <img alt="Projeto HomePage" src="./github/desktop-preview.jpg)" width="100%">
+  <img alt="Projeto HomePage" src=".github/desktop-design.jpg" width="100%">
 </p>
 
 ### Desafio
