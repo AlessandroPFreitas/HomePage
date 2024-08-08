@@ -7,65 +7,66 @@
   font-family: "Inter", sans-serif;
 }
 
+/* NavBar */
+
 nav {
-  width: 100vw;
   height: 100px;
   display: flex;
-  border: 1px solid red;
   align-items: center;
   justify-content: space-between;
 }
 
 .logo {
-  margin: 10px 0 0 10% ;
-  border: 1px solid red;
-  display: flex;
+  margin: 10px 0 0 10%;
 }
 
-.lista {
-  margin: 10px  10% 0 0  ;
+.list {
+  margin: 10px 10% 0 0;
   display: flex;
-  border: 1px solid red;
   gap: 16px;
   list-style: none;
 }
 
-.lista li a {
-  display: flex;
+.list li a {
   border: 1px solid black;
   text-decoration: none;
   color: hsl(236, 13%, 42%);
 }
 
+/* Container 01 */
+.container {
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  margin: 10px 1px;
+}
 
 
-.mainImagem {
+
+/* Primeira Blox */
+
+.left-sidebar {
+  position: relative;
+  border: 1px solid rgb(250, 0, 0);
+  width: 900px;
+  margin: 20px 20px 0 10px;
+}
+
+.left-sidebar img {
   width: 100%;
 }
 
-.container{
-  display: flex;
-  justify-content: center;
-}
-
-.fistblock {
-  position: relative;
-  border: 1px solid rgb(250, 0, 0);
-  width: 800px;
-  margin: 20px 20px 0 10px ;
-}
-
-.fistblock h1 {
+.left-sidebar h1 {
   font-size: 50px;
   font-weight: 700;
   color: hsl(240, 100%, 5%);
   width: 300px;
   border: 1px solid red;
   display: inline-block;
-  /* margin: 18px 0 0 12px; */
+  margin: 18px 0 0;
 }
 
-.fistblock p {
+.left-sidebar p {
   line-height: 1.5;
   position: absolute;
   display: inline;
@@ -75,7 +76,14 @@ nav {
   color: hsl(236, 13%, 42%);
 }
 
-.fistblock button {
+.left-sidebar a {
+text-decoration: none;
+color: hsl(240, 100%, 5%);
+
+}
+
+.left-sidebar button {
+  text-decoration: none;
   font-weight: 800;
   background-color: hsl(5, 85%, 63%);
   margin: 20px;
@@ -83,31 +91,35 @@ nav {
   letter-spacing: 5px;
 }
 
-.secondblock {
-  border: 1px solid rgb(123, 0, 255);
-  width: 400px;
+/* Segunda Blox */
+
+.right-sidebar {
   background-color: hsl(240, 100%, 5%);
-  margin: 20px 10px 0 20px ;
+  border: 1px solid rgb(123, 0, 255);
+  width: 410px;
+  margin: 20px 10px 0 20px;
 }
 
-.secondblock h1 {
+.right-sidebar h1 {
   border: 1px solid red;
   color: hsl(35, 77%, 62%);
   margin: 30px 10px;
   font-size: 40px;
-
 }
-.lista2 {
+.events-list {
+  display: flex;
+  flex-direction: column;
   list-style: none;
   margin: 10px;
-  line-height:  1.5;
+  line-height: 1.5;
+  gap: 17px;
 }
 
-.lista2 li{
-  margin: 20px 0 ;
+.events-list li {
+  margin: 20px 0;
 }
 
-.lista2 li a {
+.events-list li a {
   border: 1px solid red;
   font-size: 23px;
   color: hsl(36, 100%, 99%);
@@ -115,34 +127,75 @@ nav {
   text-decoration: none;
 }
 
-
-
-.lista2 p {
-  font-weight: 700;
-  font-size: 15px;
+.events-list p {
   color: hsl(236, 13%, 42%);
 }
 
-.lista2 hr {
+.events-list hr {
   border: none;
   height: 1px;
   background-color: hsl(236, 13%, 42%);
 }
 
+/* Container 02 */
 
-.thirdblock {
+.container02 {
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  margin: 20px 1px;
+}
+
+/* Terçeira Blox*/
+
+.sidebar-down {
   border: 1px solid rgb(255, 0, 0);
- 
+  width: 1370px;
+  padding: 0 10px 0;
 }
 
-.lista3{
- display: flex;
- justify-content: space-between;
- align-items: center;
- list-style: none;
+.testimonial-list {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  line-height: 1.5;
 }
 
-.lista3 li a {
+.testimonial-list img {
+  width: 110px;
+  margin: 0 10px 0 1px;
+}
+
+.testimonial-list h1 {
+  color: hsl(5, 85%, 63%);
+  margin: 0 0 10px;
+}
+
+.testimonial-list li a {
   text-decoration: none;
+  color: hsl(240, 100%, 5%);
+  font-weight: 800;
+  font-size: 19px;
+}
 
+.testimonial-list p {
+  font-size: 15px;
+  color: hsl(236, 13%, 42%);
+  margin: 0 0 10px;
+}
+
+footer{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin: 20px;
+}
+
+.attribution {
+  font-size: 11px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }

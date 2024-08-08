@@ -3,8 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
-    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="style.css" />
 
     <link
       rel="icon"
@@ -14,23 +13,12 @@
     />
 
     <title>Frontend Mentor | News homepage</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
     <header>
-      <nav>
-        <img href="" src="assets/images/logo.svg" alt="" class="logo"></a></img>
-        <ul class="lista">
+      <nav class="navbar">
+        <img href="" src="assets/images/logo.svg" alt="" class="logo" />
+        <ul class="list">
           <li><a href="">Home</a></li>
           <li><a href="">New</a></li>
           <li><a href="">Popular</a></li>
@@ -40,73 +28,93 @@
       </nav>
     </header>
     <main>
-      <!-- Primeiro Container -->
-<div class="container">
 
-   <div class="fistblock">
+      <!-- Fist Container -->
 
-    <img class="mainImagem" src="assets/images/image-web-3-desktop.jpg" alt="">
+      <div class="container">
+        <div class="left-sidebar">
+          <img src="assets/images/image-web-3-desktop.jpg" alt="" />
 
-     <h1> The Bright Future of Web 3.0?</h1>
-     
-     <p>
-       We dive into the next evolution of the web
-       that claims to put the power of the platforms back into the hands of the
-       people. But is it really fulfilling its promise? 
-      </p>
-      <button class="botão">
-        READ MORE
-        </button>
-    </div>
+          <h1>The Bright Future of Web 3.0?</h1>
 
+          <p>
+            We dive into the next evolution of the web that claims to put the
+            power of the platforms back into the hands of the people. But is it
+            really fulfilling its promise?
+          </p>
 
-      <div class="secondblock">
+          <button><a href=""> READ MORE</a></button>
+        </div>
 
-        <h1>New</h1>
+        <div class="right-sidebar">
+          <h1>New</h1>
 
-        <ul class="lista2">
-        
-          <li><a href=""> Hydrogen VS Electric</a>
-            <p> Cars Will hydrogen-fueled cars ever catch up to EVs?</p> </li>
-<hr>
-        
-        <li><a href="">The Downsides of AI Artistry </a>
-       <p> What are the possible adverse effects of on-demand AI image
-        generation?</li></p>
-<hr>
-          <li><a href="">Is VC Funding Drying Up?</a> 
-       <p> Private funding by VC firms is down 50%
-        YOY. We take a look at what that means.</p></li>
-        </ul>
-              </div>
+          <ul class="events-list">
+            <li>
+              <a href=""> Hydrogen VS Electric</a>
+              <p>Cars Will hydrogen-fueled cars ever catch up to EVs?</p>
+            </li>
+            <hr />
+
+            <li>
+              <a href="">The Downsides of AI Artistry </a>
+              <p>
+                What are the possible adverse effects of on-demand AI image
+                generation?
+              </p>
+            </li>
+            <hr />
+            <li>
+              <a href="">Is VC Funding Drying Up?</a>
+              <p>
+                Private funding by VC firms is down 50% YOY. We take a look at
+                what that means.
+              </p>
+            </li>
+          </ul>
+        </div>
       </div>
-              <div class="thirdblock">
-          <ul class="lista3">
-            <img src="assets/images/image-retro-pcs.jpg" alt="">
-            
-            <li><h1>01</h1>
-              <a href="">Reviving Retro PCs</a>
-            <p> What happens when old PCs are given modern upgrades? </p></li>
-            <img src="assets/images/image-top-laptops.jpg" alt="">
 
-          
-            <li> <h1>02</h1>
-            <a href="">Top 10 Laptops of 2022 </a>
-            <p>Our best picks for various needs and budgets.</p></li>
-            <img src="assets/images/image-gaming-growth.jpg" alt="">
-           
-            <li><h1>03</h1>
+      <!-- Secount Container-->
+
+      <div class="container02">
+        <div class="sidebar-down">
+          <ul class="testimonial-list">
+            <img src="assets/images/image-retro-pcs.jpg" alt="" />
+
+            <li>
+              <h1>01</h1>
+              <a href="">Reviving Retro PCs</a>
+              <p>What happens when old PCs are given modern upgrades?</p>
+            </li>
+            <img src="assets/images/image-top-laptops.jpg" alt="" />
+
+            <li>
+              <h1>02</h1>
+              <a href="">Top 10 Laptops of 2022 </a>
+              <p>Our best picks for various needs and budgets.</p>
+            </li>
+            <img src="assets/images/image-gaming-growth.jpg" alt="" />
+
+            <li>
+              <h1>03</h1>
               <a href="">The Growth of Gaming </a>
-            <p>How the pandemic has sparked fresh opportunities.</p></li>
-          </ul> 
-              </div>
-        
+              <p>How the pandemic has sparked fresh opportunities.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
     </main>
+
+    <footer>  
       <div class="attribution">
         Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        <a href="h
+        ttps://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-        >. Coded by <a href="#">Your Name Here</a>.
+        >. Coded by <a href="https://github.com/AlessandroPFreitas">Alessandro Paulista </a>.
       </div>
-    </body>
+    </footer>
+
+  </body>
 </html>
