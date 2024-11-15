@@ -1,0 +1,31 @@
+
+header{
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 120px;
+}
+
+figure{
+
+}
+
+.logo-img{
+
+}
+
+nav{
+    width: 400px;
+
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links a{
+    color: hsl(236, 13%, 42%);
+}
