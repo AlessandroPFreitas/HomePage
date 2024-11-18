@@ -8,12 +8,18 @@ body, input, button, select, textarea{
     font-family: "Inter", sans-serif;
 }
 body{
-    margin: 0  5%;
+    margin: 0  8%;
 }
     
 
 ul , a{
     list-style: none;
     text-decoration: none;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 2fr 1fr ;
+    column-gap: 30px;
 }
 

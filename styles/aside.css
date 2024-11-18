@@ -1,0 +1,43 @@
+.aside-container{
+    background-color:  hsl(240, 100%, 5%);
+    padding: 2rem 1.5rem;
+}
+
+.aside-title{
+    font-size: 2.2em;
+    color: hsl(35, 77%, 62%);
+    /* border: 1px solid red; */
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.aside-info{
+    /* border: 1px solid red; */
+    border-bottom: 1px solid  hsl(36, 100%, 99%);
+    color:  hsl(36, 100%, 99%);
+    padding-bottom: 1.5em;
+    margin-bottom: 30px;
+}
+.aside-info:last-child{
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;  
+}
+
+.aside-subtitle {
+  /* border: 1px solid red; */
+  font-size: 1.3em;
+  margin-bottom: 10px;
+}
+
+.aside-subtitle a {
+    color:  hsl(36, 100%, 99%);
+}
+
+.aside-paragraph{
+    /* border: 1px solid red; */
+    color:  hsl(233, 8%, 79%);
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: 300;
+}
