@@ -1,6 +1,5 @@
 
 header{
-    /* background-color: aquamarine; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -27,5 +26,9 @@ nav{
 }
 
 .nav-links a{
-    color: hsl(236, 13%, 42%);
+color: hsl(236, 13%, 42%);
+transition: 0.3s;
+}
+.nav-links a:hover{
+color: hsl(5, 85%, 63%);
 }

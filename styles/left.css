@@ -1,33 +1,33 @@
-.article-container{
+.left-container{
     border: 1px solid red;
 }
 
-.article-img-container{
+.left-img-container{
 }
 
-#article-img{
+#left-img{
     width: 100%;
 }
 
-.article-info-container{
+.left-info-container{
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 20px;
     margin-top: 0.64rem;
 }
 
-.article-title{
+.left-title{
     font-size: 3em;
     line-height: 55px;
 }
 
 
-.article-info{
+.left-info{
 
 
 }
 
-.article-paragraph{
+.left-paragraph{
     color: hsl(236, 13%, 42%);
     font-size: 15px;
     line-height: 26px;
@@ -41,4 +41,9 @@
     padding: 15px 27px;
     font-weight: 700;
     letter-spacing: 4px;
+    transition: background 0.4s ease-in-out ;
+}
+#read-more-btn:hover{
+    background-color: black;
+    color: hsl(0, 0%, 100%);
 }
