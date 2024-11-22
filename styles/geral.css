@@ -8,7 +8,7 @@ body, input, button, select, textarea{
     font-family: "Inter", sans-serif;
 }
 body{
-    margin: 2% 8%;
+    margin: 2% 12%;
 }
     
 
@@ -17,9 +17,11 @@ ul , a{
     text-decoration: none;
 }
 
-#grid-container{
-    display: grid;
-    grid-template-columns: 2fr 1fr ;
-    column-gap: 30px;
-    margin-bottom: 3em;
+
+@media (max-width: 1356px) {
+    body{
+        margin: 0 2%;
+    }
 }
+
+

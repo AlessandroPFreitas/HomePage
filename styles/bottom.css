@@ -1,6 +1,5 @@
 #bottom-container {
     display: flex;
-    height: auto;
 }
 
 .bottom-item{
@@ -9,18 +8,19 @@
 }
 
 .bottom-item:nth-child(2) {
-    margin-left: 1rem;
+    margin-left: 0.9rem;
     margin-right: 1.5rem;
 
 }
 
 .bottom-img-container {
-    width: 96px;
+    width: 80px;
 }
 
 .bottom-img {
         width: 100%; 
-        height: auto;  
+        height: 100%;  
+        object-fit: cover;
 }
 
 .bottom-info-container {
@@ -30,14 +30,13 @@
 
 
 .bottom-title {
-    font-size: 2rem;
+    font-size: min(2rem, 2.8vw);
     color: hsl(5, 85%, 63%);
 }
 
 .bottom-subtitle{
-    font-size: 1.1rem;
+    font-size: min(1.1rem, 1.8vw);
     margin: 0.5em 0;
-
 }
 .bottom-subtitle a{
 color:  hsl(240, 100%, 5%);
@@ -48,7 +47,36 @@ color:   hsl(5, 85%, 63%);
 }
 
 .bottom-paragraph{
-    font-size: 15px;
+    font-size: min(15px, 1.5vw);
     color:   hsl(236, 13%, 42%);
     line-height: 1.3em;
+}
+
+
+@media (max-width: 604px) {
+    #bottom-container {
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    .bottom-item:nth-child(2) {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .bottom-img-container {
+        width: 100px;
+    }
+
+    .bottom-title {
+        font-size: 2rem;
+    }
+
+    .bottom-subtitle {
+        font-size: 1.3rem;
+    }
+
+    .bottom-paragraph {
+        font-size: 15px;
+    }
 }

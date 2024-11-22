@@ -1,3 +1,10 @@
+#grid-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr ;
+    column-gap: 30px;
+    margin-bottom: 3em;
+}
+
 .left-container{
     /* border: 1px solid red; */
 }
@@ -13,7 +20,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 20px;
-    margin-top: 0.64rem;
+    margin-top: 1rem;
 }
 
 .left-title{
@@ -46,4 +53,22 @@
 #read-more-btn:hover{
     background-color: black;
     color: hsl(0, 0%, 100%);
+}
+
+@media (max-width: 1062px) {
+    .left-title {
+        font-size: 2.5em;
+        line-height: 45px;
+    }
+}
+
+@media (max-width: 604px) {
+    #grid-container {
+        grid-template-columns: 1fr;
+        row-gap: 50px;
+    }
+
+    #read-more-btn {
+        padding: 15px 20px;
+    }
 }
