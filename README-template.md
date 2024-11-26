@@ -20,12 +20,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
+![Screenshot 2024-11-26 143904](https://github.com/user-attachments/assets/c6765f66-cf59-4905-8327-5819fa43b43e)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Access Here](https://alessandropfreitas.github.io/Responsive-landing-page/)
 
 ## My process
 
@@ -35,8 +34,8 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- Mobile-first workflow
+- JavaScript DOM
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I applied my knowledge of Flexbox, CSS Grid, responsiveness, and JavaScript DOM to develop a project. I learned how to create flexible and adaptable layouts that adjust to any screen.
